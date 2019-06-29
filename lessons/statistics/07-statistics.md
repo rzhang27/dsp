@@ -107,7 +107,13 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Bayesian statistics models uncertainty by a probability distribution over hypotheses.  The ability to make inferences depends on the degree of confidence in the chosen prior (the probability that the hypothesis is true before the data is considered), and the robustness of the findings to alternate prior distributions may be relevant and important.
+>>
+>> Frequentist statistics uses conditional distributions of data given specific hypotheses.  We presume that some hypothesis is true and that the observed data is sampled from that distribution.  This approach does not depend on a subjective prior, which may vary from one observer to another.
+>>
+>> Bayesian uses probabilities for both hypotheses and data, depends on the prior and likelihood of observed data, requires a subjective prior, and may be computationally intensive.
+>>
+>> Frequentist never uses the probability of a hypothesis, depends on the likelihood for both observed and unobserved data, does not require a prior, and tends to be less computationally intensive.
 
 ---
 
